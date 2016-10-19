@@ -118,6 +118,7 @@
     <None Include="Assets\Chapter 03\Shaders\ToonShader.shader" />
     <None Include="Assets\Chapter 05\Shaders\SnowShader 1.shader" />
     <None Include="Assets\Chapter 05\Shaders\SnowShader.shader" />
+    <None Include="Assets\Chapter 05\Shaders\VertAnim.shader" />
     <None Include="Assets\Chapter 05\Shaders\VertexExtrusion.shader" />
     <None Include="Assets\Chapter 05\Shaders\VertexExtrusionMap.shader" />
     <None Include="Assets\Chapter 05\Shaders\VolumetricExplosion.shader" />

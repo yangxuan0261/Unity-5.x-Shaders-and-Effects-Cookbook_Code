@@ -9,7 +9,7 @@ public class ShowNormals : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-
+        // 获取网格法线
         Mesh mesh = GetComponent<MeshFilter>().mesh;
 
         Vector3[] vertices = mesh.vertices;

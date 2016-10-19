@@ -12,6 +12,7 @@ public class Radius : MonoBehaviour {
 	
 	}
 	
+    //每帧更新shader中的参数值
 	// Update is called once per frame
 	void Update () {
         radiusMaterial.SetVector("_Center", transform.position);

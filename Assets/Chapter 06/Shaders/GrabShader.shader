@@ -41,7 +41,7 @@
 	half4 frag(v2f_vct i) : COLOR
 	{
 		fixed4 col = tex2Dproj(_GrabTexture, UNITY_PROJ_COORD(i.uvgrab));
-	return col + half4(0.5,0,0,0);
+	return 1-col; // +half4(0.5, 0, 0, 0);
 	}
 
 		ENDCG
