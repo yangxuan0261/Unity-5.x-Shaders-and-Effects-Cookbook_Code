@@ -5,8 +5,8 @@
 		Tags{ "Queue" = "Transparent" "IgnoreProjector" = "True" "RenderType" = "Opaque" }
 		ZWrite On Lighting Off Cull Off Fog{ Mode Off } Blend One Zero
 
-		//GrabPass{ "_GrabTexture" }	// For a shared texture
-		GrabPass{  }					// For a new pass every time
+		//GrabPass{ "_GrabTexture" }	// For a shared texture //共享一个，如果1-color后叠加的效果一样
+		GrabPass{  }					// For a new pass every time //各自有一个，如果1-color后叠加的效果是反复取反
 
 		Pass
 	{
