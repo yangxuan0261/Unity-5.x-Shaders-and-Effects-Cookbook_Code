@@ -12,9 +12,10 @@
 
 		LOD 300
 		Tags{ "Queue" = "Geometry+500" "RenderType" = "Opaque" }
-		pass
+		pass //遮挡部分
 	{
-		Blend SrcAlpha One
+		//Blend SrcAlpha One
+		Blend SrcAlpha OneMinusSrcAlpha
 		ZWrite off
 		Lighting off
 
@@ -55,7 +56,7 @@
 		ENDCG
 	}
 
-		pass
+		pass //未遮挡部分
 	{
 		ZWrite on
 			ZTest less
